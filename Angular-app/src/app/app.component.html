@@ -1,0 +1,15 @@
+  <div id="main" >
+         <!-- add jumbotron class to add nice margin around button, also we are setting height of a jumbotron to equal to
+           viewport height (vh) and background color to sky blue.
+         -->
+            <div style="height:100vh;background-color: #428bca;" class="jumbotron vertical-center">
+
+                <!-- Creating the button with long class and calls function called captureImage on click of it
+                "verticalCentre" is a custom class which adds 70% margin to the top of the button so that button is
+                centered.
+                -->
+
+                 <button class="btn btn-default btn-lg btn-block verticalCentre" (click)="captureImage()" >{{message}}</button>
+
+            </div>
+    </div>

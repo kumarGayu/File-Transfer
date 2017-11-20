@@ -1,0 +1,14 @@
+.btn-default {
+    color: #bce8f1;
+    background-color: #428bca;
+    border-color: #bce8f1;
+}
+
+.jumbotron.vertical-center {
+  margin-bottom: 0; /* Remove the default bottom margin of .jumbotron */
+}
+
+.verticalCentre {
+    margin-top: 70%;
+
+}
